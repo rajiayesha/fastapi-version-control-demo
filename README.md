@@ -1,2 +1,2 @@
-Start the API using:
+Run the application using:
 uvicorn app.main:app --reload
