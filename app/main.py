@@ -14,3 +14,6 @@ def list_courses():
             {"id": 2, "title": "FastAPI Application Fundamentals"}
         ]
     }
+@app.get("/health")
+def health_check():
+    return {"status": "healthy"}
